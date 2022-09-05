@@ -86,14 +86,14 @@ function setup() {
   
   //Set out to use the canvas created by P5js with Paper.js
   
-	//Get a reference to the canvas html node (could use "canvas" directly)
-	let cv = canvas;
-	//Create a view object attatched to the canvas created by P5js
-	paper.setup(cv);
-	//-----------------------------------------
-	
-	
-	//Import the SVG file into the project's active layer
+  //Get a reference to the canvas html node (could use "canvas" directly)
+  let cv = canvas;
+  //Create a view object attatched to the canvas created by P5js
+  paper.setup(cv);
+  //-----------------------------------------
+
+
+  //Import the SVG file into the project's active layer
   
   //First clear the project
   paper.project.clear();
