@@ -88,7 +88,7 @@ function setup() {
   
   //Get a reference to the canvas html node (could use "canvas" directly)
   let cv = canvas;
-  //Create a view object attatched to the canvas created by P5js
+  //Create an empty project and a view for the canvas:
   paper.setup(cv);
   //-----------------------------------------
 
